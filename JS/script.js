@@ -41,7 +41,7 @@ document.addEventListener("keypress", e => {
 });
 document.addEventListener("DOMContentLoaded", () => {
   let colors = $all(".color-item");
-  colorUpdate("#DDD", "#FFF");
-  colors[0].value = "";
-  colors[1].value = "";
+  colorUpdate("#FFF", "#EEE");
+  colors[0].value = "#FFF";
+  colors[1].value = "#EEE";
 });
