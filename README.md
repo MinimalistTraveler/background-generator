@@ -1,4 +1,4 @@
-# Background Generator Version 2.0 Aug 2018
+# Background Generator Version 2.0 Sept 2018
 
 Recent Changes So Far:
 
