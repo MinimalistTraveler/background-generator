@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+body {
+  background: linear-gradient(to right, rgb(144, 47, 47), #fff);
+  background-size: cover;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 100px;
+  text-align: center;
+}
+#bkg-title {
+  font-size: 2em;
+  letter-spacing: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  animation: fadeIn 5s;
+}
+.color-pickers {
+  padding: 20px;
+}
+input[type="color"] {
+  display: block;
+  border: none;
+  padding: none;
+  background: none;
+  width: 100%;
+  margin: 10px;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
